@@ -58,5 +58,5 @@ main {
 
 @media (prefers-color-scheme: dark) {
 	body { background-color: black; color: white; }
-	header, nav { background-color: #111 }
+	header, nav, footer { background-color: #111 }
 }
