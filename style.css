@@ -15,6 +15,7 @@ ul, ol {
 a { 
     color: #C8102E;
     text-decoration: none;
+    font-variant-numeric: tabular-nums;
 } /* UH red */
 
 a:hover {
@@ -49,6 +50,7 @@ h2 {
 main {
 	margin: auto;
 	max-width: min(1200px, 90vw);
+  font-variant-numeric: oldstyle-nums;
 }
 
 @media (prefers-color-scheme: dark) {
