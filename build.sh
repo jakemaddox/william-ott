@@ -8,6 +8,7 @@ build_site() {
   echo -e '\t<link rel="stylesheet" href="../style.css">'
   echo '</head>'
   echo '<body>'
+  cat header.html
   echo -e '\t<main>'
   sed 's/^/\t\t/' sources/$name.html >/tmp/index.html
   tail -n+3 /tmp/index.html
