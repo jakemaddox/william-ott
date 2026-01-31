@@ -20,7 +20,7 @@ main {
 	max-width: min(1200px, 90vw);
   min-height: 100vh;
   font-variant-numeric: oldstyle-nums;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 ul, ol {
@@ -50,6 +50,7 @@ nav {
 	background-color: #EEE;
 	text-align: center;
 	top: 58px;
+  word-spacing: 30px;
 }
 
 footer {
@@ -69,14 +70,29 @@ h1 {
 	text-align: center;
 	font-size: 250%;
 	font-weight: 350;
+  font-variant-numeric: lining-nums;
 }
 
 h2 {
 	text-align: center;
 	font-weight: 600;
+  font-variant-numeric: lining-nums;
 }
 
+h3 {
+  text-align: center;
+  font-weight: 400;
+  font-variant-numeric: lining-nums;
+}
 
+q {
+  font-weight: 350;
+  font-size: 130%;
+}
+
+#quote {
+  text-align: center;
+}
 
 @media (prefers-color-scheme: dark) {
 	body { background-color: black; color: white; }
