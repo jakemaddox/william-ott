@@ -13,6 +13,7 @@ build_site() {
   sed 's/^/\t\t/' sources/$name.html >/tmp/index.html
   tail -n+3 /tmp/index.html
   echo -e '\t</main>'
+  cat footer.html
   echo '</body>'
 }
 
